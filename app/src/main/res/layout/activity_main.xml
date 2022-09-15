@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:backgroundTint="#000000"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="463dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="-31dp"
+        tools:layout_editor_absoluteY="-285dp" />
+
+    <TextView
+        android:id="@+id/tvFirstName"
+        android:layout_width="115dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="229dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="345dp"
+        android:text="User Name"
+        android:textColor="#FAF7F7" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="297dp"
+        android:layout_marginBottom="287dp"
+        android:text="Password"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/UserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="#E4DCDC"
+        android:ems="10"
+        android:foregroundTint="#FFFDFD"
+        android:inputType="textPersonName"
+        android:shadowColor="#FFFAFA"
+        android:text="201"
+        android:textColor="#F4F3F3"
+        android:textColorHint="#E8E6E6"
+
+        />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="23dp"
+        android:backgroundTint="#EDE4E4"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="123"
+        />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="186dp"
+        android:text="Sign In" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="85dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="181dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="74dp"
+        android:text="Register"
+        android:textColor="#FDFDFD" />
+
+    <TextView
+        android:id="@+id/Phone1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginBottom="200dp"
+        android:text="TextView" />
+
+</RelativeLayout>

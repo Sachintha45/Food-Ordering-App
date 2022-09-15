@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "840472696344",
+    "firebase_url": "https://flamespizzeria-60e03-default-rtdb.firebaseio.com",
+    "project_id": "flamespizzeria-60e03",
+    "storage_bucket": "flamespizzeria-60e03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840472696344:android:da9e92dd8948b4e73dd56d",
+        "android_client_info": {
+          "package_name": "com.example.flamespizzeria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840472696344-hrr7t2qdg6obi0bokv78ledehfl94ico.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flamespizzeria",
+            "certificate_hash": "3ff4198870fe347ccdfc5eae765e3088bbea3a08"
+          }
+        },
+        {
+          "client_id": "840472696344-1asmblcqh0ifj1il4o3duo8vmr0shs4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNT4LLk_PRY34CRflSKphXJRSmaqgYXhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840472696344-1asmblcqh0ifj1il4o3duo8vmr0shs4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
