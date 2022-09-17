@@ -1,0 +1,12 @@
+{
+  "User": {
+    "0988123344": {
+      "Name": "Eddy",
+      "Password": "Pass1234"
+    },
+    "098812355": {
+      "Name": "John",
+      "Password": "Pass1234"
+    }
+  }
+}
