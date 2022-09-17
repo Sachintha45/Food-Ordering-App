@@ -1,0 +1,35 @@
+
+{
+  "Category": {
+    "01": {
+      "Name": "Pizza",
+      "Image": "https://source.unsplash.com/user/c_v_r/100x100"
+    },
+    "02": {
+      "Name": "Pasta",
+      "Image": "http://placehold.it/120x120&text=image4"
+    },
+    "03": {
+      "Name": "Lasagna",
+      "Image": "http://placehold.it/120x120&text=image4"
+    },
+    "04": {
+      "Name": "Sides",
+      "Image": "http://placehold.it/120x120&text=image4"
+    },
+    "05": {
+      "Name": "Beverages",
+      "Image": "http://placehold.it/120x120&text=image4"
+    }
+  },
+  "User": {
+    "0988123344": {
+      "Name": "Eddy",
+      "Password": "Pass1234"
+    },
+    "098812355": {
+      "Name": "John",
+      "Password": "Pass1234"
+    }
+  }
+}
