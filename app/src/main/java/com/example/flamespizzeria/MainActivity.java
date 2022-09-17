@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     EditText signPhone,signPassword;
     Button btnSignIn;
     TextView toRegister;
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,7 +35,9 @@ public class MainActivity extends AppCompatActivity {
         signPassword = (EditText) findViewById(R.id.signPassword);
         btnSignIn = (Button) findViewById(R.id.btnSignIn);
         toRegister = (TextView) findViewById(R.id.toRegister);
-
+        
+        //Database Connection
+        
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         final DatabaseReference user1 = database.getReference("User");
 
